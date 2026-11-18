@@ -409,7 +409,6 @@ if all_matches is None:
 
 # --- サイドバー ---
 with st.sidebar:
-    st.title("⚽ Tactical AI v6.1")
     st.caption("2018 & 2022 W杯 全128試合対応モデル")
     st.markdown("---")
 
