@@ -12,8 +12,9 @@ st.set_page_config(
     layout="wide"
 )
 
-MATCHES_FILE = "wc2022_matches.csv"
-EVENTS_FILE = "wc2022_events.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MATCHES_FILE = os.path.join(BASE_DIR, "wc2022_matches.csv")
+EVENTS_FILE = os.path.join(BASE_DIR, "wc2022_events.csv")
 
 # 2022年W杯 全32カ国の日本語 ⇔ 英語 辞書
 JP_TO_EN = {
